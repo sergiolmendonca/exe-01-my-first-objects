@@ -49,7 +49,7 @@ class Main{
 
 		// CASO ESPECIAL:
 		GarrafaTermica garrafinha = new GarrafaTermica(730); // 730mL
-		System.out.println(garrafinha.capacidade == 1000); //esta é a capacidade
+		System.out.println(garrafinha.capacidade == 730); //esta é a capacidade
 		System.out.println(garrafinha.conteudo() == 0); // e que está vazia
 		// abastecendo
 		garrafinha.abastecer();
